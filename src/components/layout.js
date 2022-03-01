@@ -42,6 +42,7 @@ const Layout = ({ children }) => {
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a> |    <a href="#" className="cmp-revoke-consent" style={{position: `static`}}>Revoke Consent</a>
+          <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
         </footer>
       </div>
     </>
